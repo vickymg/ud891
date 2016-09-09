@@ -19,6 +19,16 @@ page('/:slug', function(context) {
   newMenuItem.classList.add('is-active');
   newPage.classList.add('is-active');
 
+  // If this is the first time a user is visiting the site, wait until they
+  // click a menu item before moving the focus around
+  if (isFirstPage) {
+    isFirstPage = false;
+    return;
+  }
+
+  // Move focus to the heading of the new page
+  newPage.querySelector("h2").focus();
+
 });
 
 page({
