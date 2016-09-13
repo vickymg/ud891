@@ -1,4 +1,4 @@
 # Udacity Web Accessibility
 
-Exercises for the Udacity Web Accessibility course:
+Exercises from the Udacity Web Accessibility course:
 https://www.udacity.com/course/web-accessibility--ud891
